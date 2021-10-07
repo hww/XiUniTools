@@ -15,7 +15,7 @@ jobs:
       run: |
         echo Assets/XiUnityTools.meta >> metaList
         find Assets/XiUnityTools -name \*.meta >> metaList
-    - uses: pCYSl5EDgo/create-unitypackage@main
+    - uses: pCYSl5EDgo/create-unitypackage@master
       with:
         package-path: XiUnityTools.unitypackage
         include-files: metaList
