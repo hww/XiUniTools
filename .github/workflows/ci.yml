@@ -2,7 +2,7 @@ name: ⚙ Build and Release
 on:
   push:
     branches:
-    - master
+    - main
 jobs:
   release:
     name: ⚙ Release
@@ -15,7 +15,7 @@ jobs:
       run: |
         echo Assets/XiUnityTools.meta >> metaList
         find Assets/XiUnityTools -name \*.meta >> metaList
-    - uses: pCYSl5EDgo/create-unitypackage@master
+    - uses: pCYSl5EDgo/create-unitypackage@main
       with:
         package-path: XiUnityTools.unitypackage
         include-files: metaList
@@ -27,7 +27,7 @@ jobs:
         extra_plugins: |
           @semantic-release/changelog
           @semantic-release/git
-        branch: master
+        branch: main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Update upm branch
