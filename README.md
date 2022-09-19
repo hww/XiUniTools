@@ -7,5 +7,16 @@ Collection of Unity scripts
 [![](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/hww/XiUnityTools/blob/master/LICENSE)
 
 
+## Install
 
+The package is available on the openupm registry. You can install it via openupm-cli.
+
+```bash
+openupm add com.hww.xiUnitytools
+```
+You can also install via git url by adding this entry in your manifest.json
+
+```bash
+"com.hww.xiUnitytools": "https://github.com/hww/XiUnityTools.git#upm"
+```
   
