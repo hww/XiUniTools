@@ -1,0 +1,17 @@
+{
+    "name": "XiUnityTools",
+    "rootNamespace": "XiUnityTools",
+    "references": [
+        "XiDebugMenu",
+        "XiCore"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
