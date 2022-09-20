@@ -1,0 +1,19 @@
+{
+  "name": "com.hww.XiUnityTools",
+  "displayName": "XiUnityTools",
+  "version": "1.0.0",
+  "unity": "2021.1",
+  "description": "XiUnityTools is a collection of tools for Unity.",
+  "license": "MIT",
+  "author": "hww <valery.hww@gmail.com> (https://github.com/hww)",
+  "keywords": [
+    "libs",
+    "Unity"
+  ],
+  "category": "Debug",
+  "samples": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hww/XiUnityTools.git#upm"
+  }
+}
