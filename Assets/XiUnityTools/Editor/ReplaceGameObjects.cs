@@ -13,7 +13,7 @@ public class ReplaceGameObjects : ScriptableWizard
     public GameObject Prefab;
     public GameObject[] ObjectsToReplace;
     public bool KeepOriginalNames = true;
-    [MenuItem("/Rocket/Replace GameObjects1")]
+    [MenuItem("/XiTools/Replace GameObjects")]
     static void CreateWizard()
     {
         var replaceGameObjects = DisplayWizard<ReplaceGameObjects>("Replace GameObjects", "Replace");
