@@ -1,9 +1,9 @@
 {
-  "name": "com.hww.xiunitytools",
-  "displayName": "XiUnityTools",
+  "name": "com.hww.xiunitools",
+  "displayName": "XiUniTools",
   "version": "1.0.0",
   "unity": "2021.1",
-  "description": "XiUnityTools is a collection of tools for Unity.",
+  "description": "XiUniTools is a collection of tools for Unity.",
   "license": "MIT",
   "author": "hww <valery.hww@gmail.com> (https://github.com/hww)",
   "keywords": [
