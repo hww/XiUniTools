@@ -1,22 +1,23 @@
 # XiUnityTools
-Collection of Unity scripts
 
-![](https://img.shields.io/badge/unity-2021.1%20or%20later-green.svg)
+![](https://img.shields.io/badge/unity-2018.3%20or%20later-green.svg)
 [![⚙ Build and Release](https://github.com/hww/XiUnityTools/actions/workflows/ci.yml/badge.svg)](https://github.com/hww/XiUnityTools/actions/workflows/ci.yml)
-[![openupm](https://img.shields.io/npm/v/com.hww.XiUnityTools?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.hww.XiUnityTools/)
-[![](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/hww/XiUnityTools/blob/master/LICENSE)
+[![openupm](https://img.shields.io/npm/v/com.hww.xiunitytools?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.hww.xiunitytools/)
+[![](https://img.shields.io/github/license/hww/XiUnityTools.svg)](https://github.com/hww/XiUnityTools/blob/master/LICENSE)
+[![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 
+Collection of Unity scripts created by [hww](https://github.com/hww)
 
 ## Install
 
 The package is available on the openupm registry. You can install it via openupm-cli.
 
 ```bash
-openupm add com.hww.xiUnitytools
+openupm add com.hww.xiunitytools
 ```
 You can also install via git url by adding this entry in your manifest.json
 
 ```bash
-"com.hww.xiUnitytools": "https://github.com/hww/XiUnityTools.git#upm"
+"com.hww.xiunitytools": "https://github.com/hww/XiUnityTools.git#upm"
 ```
   
