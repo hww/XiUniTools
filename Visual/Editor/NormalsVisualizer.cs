@@ -1,10 +1,12 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-//[CustomEditor(typeof(MeshFilter))]
+[CustomEditor(typeof(MeshFilter))]
+[CanEditMultipleObjects]
 public class NormalsVisualizer : Editor
 {
     public static float noramlLength = 0.5f;
+    public static bool displayNormals;
 
     private Mesh mesh;
 
@@ -12,13 +14,26 @@ public class NormalsVisualizer : Editor
     {
         MeshFilter mf = target as MeshFilter;
         if (mf != null)
-        {
             mesh = mf.sharedMesh;
-        }
     }
+
+    [MenuItem("/XiTools/Normals/Show")]
+    private static void DisplayNormals()
+    {
+        displayNormals = true;
+    }
+
+    [MenuItem("/XiTools/Normals/Hide")]
+    private static void HideNormals()
+    {
+        displayNormals = false;
+    }
+
 
     void OnSceneGUI()
     {
+        if (!displayNormals)
+            return;
         if (mesh == null)
             return;
         if (mesh.vertices == null || mesh.vertices.Length == 0)

@@ -5,7 +5,7 @@ using UnityEditor;
 
 public class ShurikenScaler : EditorWindow
 {
-    [MenuItem ("Rocket/ShurikenScaler")]
+    [MenuItem ("/XiTools/ShurikenScaler")]
     public static void OpenWindow ()
     {
         GetWindow<ShurikenScaler> (false, "Shuriken Particle Scaler", true);

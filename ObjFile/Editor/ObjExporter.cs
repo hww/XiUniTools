@@ -7,13 +7,13 @@ using System.Text;
 
 public class ObjExporter : ScriptableObject
 {
-    [MenuItem("Rocket/Export/Wavefront OBJ")]
+    [MenuItem("/XiTools/ObjExporter/Wavefront OBJ")]
     static void DoExportWSubmeshes()
     {
         DoExport(true);
     }
 
-    [MenuItem("Rocket/Export/Wavefront OBJ (No Submeshes)")]
+    [MenuItem("XiTools/ObjExporter/Wavefront OBJ (No Submeshes)")]
     static void DoExportWOSubmeshes()
     {
         DoExport(false);

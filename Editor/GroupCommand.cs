@@ -3,7 +3,7 @@ using UnityEngine;
 
 public static class GroupCommand
 {
-    [MenuItem("Rocket/Group Selected %g")]
+    [MenuItem("/XiTools/Group Selected %g")]
     private static void GroupSelected()
     {
         if (!Selection.activeTransform) return;
