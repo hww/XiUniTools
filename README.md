@@ -21,3 +21,4 @@ You can also install via git url by adding this entry in your manifest.json
 "com.hww.xiunitytools": "https://github.com/hww/XiUnityTools.git#upm"
 ```
   
+ 
