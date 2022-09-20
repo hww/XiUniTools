@@ -13,12 +13,15 @@ Collection of Unity scripts created by [hww](https://github.com/hww)
 The package is available on the openupm registry. You can install it via openupm-cli.
 
 ```bash
-openupm add com.hww.xiunitytools
+openupm add com.hww.xiunitools
 ```
 You can also install via git url by adding this entry in your manifest.json
 
 ```bash
-"com.hww.xiunitytools": "https://github.com/hww/XiUnityTools.git#upm"
-```
+"com.hww.xiunitools": "https://github.com/hww/XiUniTools.git#upm"
+``` 
+
+
+
   
   
