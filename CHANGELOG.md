@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/hww/XiUniTools/compare/v1.0.0...v1.1.0) (2022-09-20)
+
+
+### Features
+
+* **doc:** Updated ([f791e21](https://github.com/hww/XiUniTools/commit/f791e21d081df730335a8c248acb49a2a8faa040))
+
 # 1.0.0 (2022-09-20)
 
 
