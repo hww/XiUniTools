@@ -6,7 +6,7 @@
 [![](https://img.shields.io/github/license/hww/XiUnityTools.svg)](https://github.com/hww/XiUnityTools/blob/master/LICENSE)
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 
-Collection of Unity scripts created by [hww](https://github.com/hww)
+Collection of Unity scripts collected by [hww](https://github.com/hww) and used for some of my projects
 
 ## Install
 
